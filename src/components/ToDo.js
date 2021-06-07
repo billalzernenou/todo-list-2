@@ -20,7 +20,10 @@ const ToDo = ({ task, tasks, setTasks }) => {
   };
 
   return (
-    <div className={task.completed ? "task-validated to-do" : "to-do"}>
+    <div
+      key={task.id}
+      className={task.completed ? "task-validated to-do" : "to-do"}
+    >
       <div> {task.name}</div>
       <div>
         <FontAwesomeIcon

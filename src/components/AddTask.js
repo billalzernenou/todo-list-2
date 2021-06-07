@@ -1,5 +1,5 @@
 import { useState } from "react";
-import uniqueid from "uniqueid";
+import uniqid from "uniqid";
 
 const AddTask = ({ tasks, setTasks }) => {
   const [input, setInput] = useState("");
@@ -17,7 +17,7 @@ const AddTask = ({ tasks, setTasks }) => {
     } else {
       const newTasks = [...tasks];
       const newTask = {
-        id: uniqueid(),
+        id: uniqid(),
         name: input,
         completed: false,
       };

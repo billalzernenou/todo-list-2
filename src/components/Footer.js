@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="footer">
-      <p>Ce test est réalisé par Billal ZERNENOU Le 01/06/2021</p>
+      <p>Réalisé par Billal ZERNENOU </p>
     </div>
   );
 };

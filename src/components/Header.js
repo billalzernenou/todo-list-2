@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="header">
       <FontAwesomeIcon icon="th-list" size="4x" color="#ff0f3e" />
-      <h1>ToDoList HypeCode Test</h1>
+      <h1>ToDoList</h1>
     </div>
   );
 };
